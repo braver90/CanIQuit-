@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:flutter_base_template/shared/application/app/app_cubit.dart';
-import 'package:flutter_base_template/shared/domain/entities/service_module.dart';
+import 'package:can_i_quit/shared/application/app/app_cubit.dart';
+import 'package:can_i_quit/shared/domain/entities/service_module.dart';
 
 class SharedModule implements ServiceModule {
   final injector = ServiceModule.injector;

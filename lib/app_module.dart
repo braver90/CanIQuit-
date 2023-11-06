@@ -1,6 +1,6 @@
 // import 'dart:async';
 
-// import 'package:flutter_base_template/shared/domain/entities/service_module.dart';
+// import 'package:can_i_quit/shared/domain/entities/service_module.dart';
 
 // class AppModule implements ServiceModule {
 //   @override

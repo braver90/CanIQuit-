@@ -1,8 +1,8 @@
+import 'package:can_i_quit/app.dart';
+import 'package:can_i_quit/features/splash/splash_module.dart';
+import 'package:can_i_quit/flavors.dart';
+import 'package:can_i_quit/shared/shared_module.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_template/app.dart';
-import 'package:flutter_base_template/features/splash/splash_module.dart';
-import 'package:flutter_base_template/flavors.dart';
-import 'package:flutter_base_template/shared/shared_module.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

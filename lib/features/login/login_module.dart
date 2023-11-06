@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:flutter_base_template/features/login/domain/repositories/login_repository.dart';
-import 'package:flutter_base_template/shared/domain/entities/service_module.dart';
+import 'package:can_i_quit/features/login/domain/repositories/login_repository.dart';
+import 'package:can_i_quit/shared/domain/entities/service_module.dart';
 
 import 'application/login_cubit.dart';
 import 'data/datasources/login_datasource.dart';

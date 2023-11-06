@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:flutter_base_template/features/home/domain/repositories/home_repository.dart';
-import 'package:flutter_base_template/shared/domain/entities/service_module.dart';
+import 'package:can_i_quit/features/home/domain/repositories/home_repository.dart';
+import 'package:can_i_quit/shared/domain/entities/service_module.dart';
 
 import 'application/home_cubit.dart';
 import 'data/datasources/home_datasource.dart';

@@ -1,8 +1,8 @@
+import 'package:can_i_quit/features/home/home_router.dart';
+import 'package:can_i_quit/features/login/login_router.dart';
+import 'package:can_i_quit/features/splash/splash_router.dart';
+import 'package:can_i_quit/shared/presentation/widgets/private_area_scaffold.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_template/features/home/home_router.dart';
-import 'package:flutter_base_template/features/login/login_router.dart';
-import 'package:flutter_base_template/features/splash/splash_router.dart';
-import 'package:flutter_base_template/shared/presentation/widgets/private_area_scaffold.dart';
 import 'package:go_router/go_router.dart';
 
 class AppRouter {

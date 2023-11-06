@@ -2,5 +2,5 @@
 
 FLUTTER_TARGET=lib/main_DEV.dart
 ASSET_PREFIX=DEV
-BUNDLE_NAME=flutter_base_template App DEV
-BUNDLE_DISPLAY_NAME=flutter_base_template App DEV
+BUNDLE_NAME=can_i_quit App DEV
+BUNDLE_DISPLAY_NAME=can_i_quit App DEV

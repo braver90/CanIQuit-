@@ -1,4 +1,4 @@
-package com.example.flutter_base_template
+package com.example.can_i_quit
 
 import io.flutter.embedding.android.FlutterActivity
 

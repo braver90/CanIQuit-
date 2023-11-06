@@ -1,4 +1,4 @@
-import 'package:flutter_base_template/features/login/presentation/pages/login_page.dart';
+import 'package:can_i_quit/features/login/presentation/pages/login_page.dart';
 import 'package:go_router/go_router.dart';
 
 class LoginRouter {

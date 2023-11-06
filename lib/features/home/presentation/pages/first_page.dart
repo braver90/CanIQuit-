@@ -1,5 +1,5 @@
+import 'package:can_i_quit/flavors.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_template/flavors.dart';
 
 class FirstPage extends StatefulWidget {
   const FirstPage({super.key});

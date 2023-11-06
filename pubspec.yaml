@@ -1,4 +1,4 @@
-name: flutter_base_template
+name: can_i_quit
 description: A template which can be used to start a fresh flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -41,6 +41,9 @@ dependencies:
   url_launcher: ^6.2.1
   get_it: ^7.6.4
   go_router: ^12.1.0
+  dynamic_color: ^1.6.8
+  custom_theme:
+    path: E:\Repository\CanIQuit-\packages\custom_theme
 
 dev_dependencies:
   flutter_test:
@@ -100,25 +103,25 @@ flavorizr:
   flavors:
     DEV:
       app:
-        name: "flutter_base_template App DEV"
+        name: "canIQuit_App DEV"
 
       android:
-        applicationId: "com.flutter_base_template.dev"
+        applicationId: "com.can_i_quit.dev"
       ios:
-        bundleId: "com.flutter_base_template.dev"
+        bundleId: "com.can_i_quit.dev"
     STAGE:
       app:
-        name: "flutter_base_ App STAGE"
+        name: "canIQuit_App STAGE"
 
       android:
-        applicationId: "com.flutter_base_template.stage"
+        applicationId: "com.can_i_quit.stage"
       ios:
-        bundleId: "com.flutter_base_template.stage"
+        bundleId: "com.can_i_quit.stage"
 
     PROD:
       app:
-        name: "flutter_base_ App PROD"
+        name: "canIQuit_App PROD"
       android:
-        applicationId: "com.flutter_base_template"
+        applicationId: "com.can_i_quit"
       ios:
-        bundleId: "com.flutter_base_template"
+        bundleId: "com.can_i_quit"

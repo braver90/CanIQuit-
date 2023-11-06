@@ -1,6 +1,6 @@
+import 'package:can_i_quit/features/splash/application/splash_cubit.dart';
+import 'package:can_i_quit/features/splash/application/splash_state.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_template/features/splash/application/splash_cubit.dart';
-import 'package:flutter_base_template/features/splash/application/splash_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class SplashPage extends StatefulWidget {

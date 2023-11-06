@@ -1,5 +1,5 @@
-import 'package:flutter_base_template/features/home/presentation/pages/first_page.dart';
-import 'package:flutter_base_template/features/home/presentation/pages/second_page.dart';
+import 'package:can_i_quit/features/home/presentation/pages/first_page.dart';
+import 'package:can_i_quit/features/home/presentation/pages/second_page.dart';
 import 'package:go_router/go_router.dart';
 
 class HomeRouter {
