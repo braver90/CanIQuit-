@@ -86,7 +86,8 @@ class AppBaseTheme {
   }
 
   TextTheme textTheme(TextTheme textTheme) {
-    return const TextTheme();
+    return TextTheme(
+        displayLarge: textTheme.displayLarge?.copyWith(fontSize: 10));
   }
 
   SwitchThemeData switchTheme(ColorScheme colorScheme) {

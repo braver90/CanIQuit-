@@ -26,25 +26,28 @@ class App extends StatelessWidget {
             theme: dynamicTheme.lightTheme,
             themeMode: dynamicTheme.themeMode,
             builder: (context, child) {
-              return BlocBuilder<AppCubit, AppState>(
-                  bloc: ServiceModule.injector(),
-                  builder: (context, state) {
-                    return Stack(children: [
-                      if (state.isLoading)
-                        const AnimatedOpacity(
-                          opacity: 1,
-                          duration: Duration(milliseconds: 300),
-                          child: Center(child: CircularProgressIndicator()),
-                        ),
-                      Opacity(
-                          opacity: state.isLoading ? 0.3 : 1,
-                          child: Scaffold(
-                            appBar: AppBar(
-                                title: const Text(SharedConstants.appName)),
-                            body: child,
-                          )),
-                    ]);
-                  });
+              return BlocProvider(
+                create: (context) => ServiceModule.injector<AppCubit>(),
+                child:
+                    BlocBuilder<AppCubit, AppState>(builder: (context, state) {
+                  return Stack(children: [
+                    if (state.isLoading)
+                      const AnimatedOpacity(
+                        opacity: 1,
+                        duration: Duration(milliseconds: 300),
+                        child: Center(child: CircularProgressIndicator()),
+                      ),
+                    Opacity(
+                        opacity: state.isLoading ? 0.3 : 1,
+                        child: Scaffold(
+                          // appBar: AppBar(
+                          //     title: const Text(SharedConstants.appName)),
+                          body:
+                              SafeArea(child: child ?? const SizedBox.shrink()),
+                        )),
+                  ]);
+                }),
+              );
             },
             routeInformationProvider: _router.routeInformationProvider,
             routeInformationParser: _router.routeInformationParser,

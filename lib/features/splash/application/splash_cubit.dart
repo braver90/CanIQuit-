@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:can_i_quit/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
@@ -12,6 +13,6 @@ class SplashCubit extends Cubit<SplashState> {
   void init(BuildContext context) {
     int duration = Random().nextInt(3);
     Future.delayed(Duration(seconds: duration))
-        .then((value) => GoRouter.of(context).go("/"));
+        .then((value) => GoRouter.of(context).go(AppRouter.root));
   }
 }

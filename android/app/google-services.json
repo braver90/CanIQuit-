@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523996192299",
+    "project_id": "caniquit-8f662",
+    "storage_bucket": "caniquit-8f662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523996192299:android:36b99e552dad25e468546e",
+        "android_client_info": {
+          "package_name": "com.can_i_quit.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1KgHTGnJwTPgXynDrjqhpAruh_wo7YJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

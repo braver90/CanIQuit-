@@ -1,12 +1,13 @@
 import 'package:can_i_quit/features/home/home_router.dart';
 import 'package:can_i_quit/features/login/login_router.dart';
+import 'package:can_i_quit/features/simulator/simulator_router.dart';
 import 'package:can_i_quit/features/splash/splash_router.dart';
 import 'package:can_i_quit/shared/presentation/widgets/private_area_scaffold.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class AppRouter {
-  static const root = "/";
+  static String root = SimulatorRouter.simulatorUrl;
   static createRouter() {
     return GoRouter(
         errorBuilder: (context, state) => Container(),
@@ -30,7 +31,7 @@ class AppRouter {
           builder: (context, state, child) {
             return PrivateAreaScaffold(child: child);
           },
-          routes: [...HomeRouter.getRoutes()])
+          routes: [...SimulatorRouter.getRoutes(), ...HomeRouter.getRoutes()])
     ];
   }
 }

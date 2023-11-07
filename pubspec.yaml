@@ -44,6 +44,12 @@ dependencies:
   dynamic_color: ^1.6.8
   custom_theme:
     path: E:\Repository\CanIQuit-\packages\custom_theme
+  firebase_core: ^2.21.0
+  firebase_analytics: ^10.6.3
+  firebase_auth: ^4.12.1
+  firebase_crashlytics: ^3.4.3
+  logger: ^2.0.2+1
+  fl_chart: ^0.64.0
 
 dev_dependencies:
   flutter_test:
