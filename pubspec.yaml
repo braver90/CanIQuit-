@@ -50,6 +50,8 @@ dependencies:
   firebase_crashlytics: ^3.4.3
   logger: ^2.0.2+1
   fl_chart: ^0.64.0
+  braver_forms:
+    path: E:\Repository\CanIQuit-\packages\braver_forms
 
 dev_dependencies:
   flutter_test:

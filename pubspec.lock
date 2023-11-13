@@ -65,6 +65,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  braver_forms:
+    dependency: "direct main"
+    description:
+      path: "E:\\Repository\\CanIQuit-\\packages\\braver_forms"
+      relative: false
+    source: path
+    version: "0.0.1"
   build:
     dependency: transitive
     description:
